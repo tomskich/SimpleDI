@@ -1,4 +1,4 @@
-# Dependency Injection in C#
+# C# Dependency Injection
 
 A list of C# dependency injection containers and some extensions.
 
@@ -43,18 +43,11 @@ A list of C# dependency injection containers and some extensions.
             </td>
         </tr>
         <tr>
-            <td colspan="3">Microsoft Dependency Injection</td>
-        </tr>
-        <tr>
             <td><a href="https://github.com/dotnet/runtime/blob/main/src/libraries/Microsoft.Extensions.DependencyInjection/README.md">Microsoft.Extensions.DependencyInjection</a></td>
             <td></td>
         </tr>
         <tr>
-            <td><a href="https://github.com/dotnet/runtime/blob/main/src/libraries/Microsoft.Extensions.DependencyInjection.Abstractions/README.md">Microsoft.Extensions.DependencyInjection.Abstractions</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><a href="https://github.com/khellang/Scrutor">Scrutor</a></td>
+            <td>.. <a href="https://github.com/khellang/Scrutor">Scrutor</a> - Assembly scanning and decoration extensions for MSDI</td>
             <td>
                 <img src="https://img.shields.io/github/stars/khellang/Scrutor?logo=github&cacheSeconds=604800" alt="stars"/>
                 <img src="https://img.shields.io/github/last-commit/khellang/Scrutor?logo=github&cacheSeconds=86400" alt="last commit"/>
@@ -86,14 +79,14 @@ A list of C# dependency injection containers and some extensions.
 
 ## Compile time dependency injection
 
-| Project                                                         | Description | Stats                                                                                                                                                                                                                                        |
-|-----------------------------------------------------------------|:------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Jab](https://github.com/pakrym/jab)                            |             | ![stars](https://img.shields.io/github/stars/pakrym/jab?logo=github&cacheSeconds=604800) ![last commit](https://img.shields.io/github/last-commit/pakrym/jab?logo=github&cacheSeconds=86400)                                     |
-| [Pure.DI](https://github.com/DevTeam/Pure.DI)                   |             | ![stars](https://img.shields.io/github/stars/DevTeam/Pure.DI?logo=github&cacheSeconds=604800) ![last commit](https://img.shields.io/github/last-commit/DevTeam/Pure.DI?logo=github&cacheSeconds=86400)                           |
-| [StrongInject](https://github.com/YairHalberstadt/stronginject) |             | ![stars](https://img.shields.io/github/stars/YairHalberstadt/stronginject?logo=github&cacheSeconds=604800) ![last commit](https://img.shields.io/github/last-commit/YairHalberstadt/stronginject?logo=github&cacheSeconds=86400) |
+| Project                                                         | Stats                                                                                                                                                                                                                            |
+|:----------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Jab](https://github.com/pakrym/jab)                            | ![stars](https://img.shields.io/github/stars/pakrym/jab?logo=github&cacheSeconds=604800) ![last commit](https://img.shields.io/github/last-commit/pakrym/jab?logo=github&cacheSeconds=86400)                                     |
+| [Pure.DI](https://github.com/DevTeam/Pure.DI)                   | ![stars](https://img.shields.io/github/stars/DevTeam/Pure.DI?logo=github&cacheSeconds=604800) ![last commit](https://img.shields.io/github/last-commit/DevTeam/Pure.DI?logo=github&cacheSeconds=86400)                           |
+| [StrongInject](https://github.com/YairHalberstadt/stronginject) | ![stars](https://img.shields.io/github/stars/YairHalberstadt/stronginject?logo=github&cacheSeconds=604800) ![last commit](https://img.shields.io/github/last-commit/YairHalberstadt/stronginject?logo=github&cacheSeconds=86400) |
 
 ## Other useful projects
 
-| Project                                                    | Description | Stats                                                                                                                                                                                                                          |
-|------------------------------------------------------------|:------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [FastGenericNew](https://github.com/Nyrest/FastGenericNew) |             | ![stars](https://img.shields.io/github/stars/Nyrest/FastGenericNew?logo=github&cacheSeconds=604800) ![last commit](https://img.shields.io/github/last-commit/Nyrest/FastGenericNew?logo=github&cacheSeconds=86400) |
+| Project                                                    | Stats                                                                                                                                                                                                              |
+|:-----------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [FastGenericNew](https://github.com/Nyrest/FastGenericNew) | ![stars](https://img.shields.io/github/stars/Nyrest/FastGenericNew?logo=github&cacheSeconds=604800) ![last commit](https://img.shields.io/github/last-commit/Nyrest/FastGenericNew?logo=github&cacheSeconds=86400) |

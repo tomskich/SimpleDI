@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC976C2D-153C-458A-833D-4F86724B4271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDI", "src\SimpleDI\SimpleDI.csproj", "{9B814647-2D4F-42A1-83ED-619D53BD675B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDI.Test", "src\SimpleDI.Test\SimpleDI.Test.csproj", "{3859F5C0-5BDE-40B6-AB72-668233694302}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B814647-2D4F-42A1-83ED-619D53BD675B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B814647-2D4F-42A1-83ED-619D53BD675B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B814647-2D4F-42A1-83ED-619D53BD675B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B814647-2D4F-42A1-83ED-619D53BD675B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3859F5C0-5BDE-40B6-AB72-668233694302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3859F5C0-5BDE-40B6-AB72-668233694302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3859F5C0-5BDE-40B6-AB72-668233694302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3859F5C0-5BDE-40B6-AB72-668233694302}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B814647-2D4F-42A1-83ED-619D53BD675B} = {EC976C2D-153C-458A-833D-4F86724B4271}
+		{3859F5C0-5BDE-40B6-AB72-668233694302} = {EC976C2D-153C-458A-833D-4F86724B4271}
+	EndGlobalSection
+EndGlobal

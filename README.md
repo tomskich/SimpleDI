@@ -1,5 +1,7 @@
 # SimpleDI
 
+One more runtime based DI container.
+
 This project was written with the purpose of studying the internal structure and mechanics of DI containers.
 There are many things that can be added and improved, but since the project was written for educational purposes,
 significant further development is not planned.
@@ -29,14 +31,17 @@ The following components have been implemented:
 
 Some ideas for improvement:
 
-- Add documenting comments
+- Add documentation
+  - Documenting comments
+  - More info in README
 - Add more tests
 - Add benchmarks
+- Add activator based on [FastExpressionCompiler](https://github.com/dadhi/FastExpressionCompiler)
 - Handle potential exceptions
 - Throw exceptions:
   - When attempting to resolve an unregistered service
   - When the lifetime of a dependency is shorter than the lifetime of the service
-- Add registration extensions:
+- Add registration extensions
   - Factory based
   - Instance based
   - Generic types

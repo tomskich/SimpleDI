@@ -7,7 +7,7 @@ There are many things that can be added and improved, but since the project was 
 significant further development is not planned.
 
 You can find a list of popular DI containers here -
-[C# Dependency Injection](https://github.com/tomskich/csharp-dependency-injection).
+[C# Dependency Injection](https://github.com/vtomskih/csharp-dependency-injection).
 
 ## Project Structure
 
